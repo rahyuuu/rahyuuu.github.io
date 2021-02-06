@@ -1,0 +1,638 @@
+   html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+
+/*button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+*/
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+td:not([align]),
+th:not([align]) {
+  text-align: left;
+}
+
+html {
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+section {
+  display: block;
+}
+
+code,
+pre {
+  font-family: monospace;
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: auto;
+}
+
+body {
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+
+/*start css here!!*/ 
+*{
+        box-sizing: border-box;
+        }
+    html{
+        padding: 0;
+        margin: 0;
+         background: black;
+         font-family: Noto Sans KR;
+         font-size: 12px;
+
+     }
+    h2{
+        color: white;
+/*        font-family: Munken Sans;
+*/        font-weight: bold;
+        text-align: center;
+        font-size: 1.5em;
+
+    }
+
+     body{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+     }
+
+     ul{
+     	margin-left: 30px;
+     }
+
+     .flex-box{
+        width: 100%;
+        /*height: 100%;*/
+        display: flex;
+        justify-content: space-between;
+        padding: 25px;
+     }
+
+     .flex-box > div{
+        width: 30vw;
+        height: 26vh;
+        background-color: white;
+        border-radius: 10px;
+        padding-left: 1em;
+         padding-right: 1em;
+         overflow: scroll;
+     }
+
+     .div{
+     	padding: 1em;
+     }
+
+     #muji {
+     	position: relative;
+     	cursor: pointer;
+
+     }
+     #mujiimage {
+     	display: none;
+     	position: absolute;
+     	z-index: 1;
+     	width: 15vw;
+     }
+     #muji:hover + #mujiimage {
+     	display: block;
+     }
+
+      #freitag {
+     	position: relative;
+     	cursor: pointer;
+
+     }
+     #freitagimage {
+     	display: none;
+     	position: absolute;
+     	z-index: 1;
+     	width: 15vw;
+     }
+     #freitag:hover + #freitagimage {
+     	display: block;
+     }
+
+     #surya {
+     	position: relative;
+     	cursor: pointer;
+     }
+     #suryaimage {
+     	display: none;
+     	position: absolute;
+     	z-index: 1;
+     	width: 15vw;
+     }
+     #surya:hover + #suryaimage {
+     	display: block;
+     }
+
+      #tattoo {
+     	position: relative;
+     	cursor: pointer;
+     }
+     #tattooimage {
+     	display: none;
+     	position: absolute;
+     	z-index: 1;
+     	width: 15vw;
+     }
+     #tattoo:hover + #tattooimage {
+     	display: block;
+     }
+
+       #ilsang {
+     	position: relative;
+     	cursor: pointer;
+     }
+     #ilsangimage {
+     	display: none;
+     	position: absolute;
+     	z-index: 1;
+     	width: 15vw;
+     }
+     #ilsang:hover + #ilsangimage {
+     	display: block;
+     }
+
+     #poster {
+     	position: relative;
+     	cursor: pointer;
+     }
+     #posterimage {
+     	display: none;
+     	position: absolute;
+     	z-index: 1;
+     	width: 15vw;
+     }
+     #poster:hover + #posterimage {
+     	display: block;
+     }
+
+      #mori {
+     	position: relative;
+     	cursor: pointer;
+     }
+     #moriimage {
+     	display: none;
+     	position: absolute;
+     	z-index: 1;
+     	width: 15vw;
+     }
+     #mori:hover + #moriimage {
+     	display: block;
+     }
+
+     #avocado {
+     	position: relative;
+     	cursor: pointer;
+     }
+     #avocadoimage {
+     	display: none;
+     	position: absolute;
+     	z-index: 1;
+     	width: 15vw;
+     }
+     #avocado:hover + #avocadoimage {
+     	display: block;
+     }
+
+     #photo_1 {
+     	position: relative;
+     	cursor: pointer;
+     }
+     #photo_1image {
+     	display: none;
+     	position: absolute;
+     	z-index: 1;
+     	width: 15vw;
+     }
+     #photo_1:hover + #photo_1image {
+     	display: block;
+     }
+
+      #photo_2 {
+        position: relative;
+        cursor: pointer;
+     }
+     #photo_2image {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        width: 15vw;
+     }
+     #photo_2:hover + #photo_2image {
+        display: block;
+     }
+
+      #photo_3 {
+        position: relative;
+        cursor: pointer;
+     }
+     #photo_3image {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        width: 15vw;
+     }
+     #photo_3:hover + #photo_3image {
+        display: block;
+     }
+
+     #photo_4 {
+        position: relative;
+        cursor: pointer;
+     }
+     #photo_4image {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        width: 15vw;
+     }
+     #photo_4:hover + #photo_4image {
+        display: block;
+     }
+
+     #photo_5 {
+        position: relative;
+        cursor: pointer;
+     }
+     #photo_5image {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        width: 15vw;
+     }
+     #photo_5:hover + #photo_5image {
+        display: block;
+     }
+
+     #photo_6 {
+        position: relative;
+        cursor: pointer;
+     }
+     #photo_6image {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        width: 15vw;
+     }
+     #photo_6:hover + #photo_6image {
+        display: block;
+     }
+
+     #photo_7 {
+        position: relative;
+        cursor: pointer;
+     }
+     #photo_7image {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        width: 15vw;
+     }
+     #photo_7:hover + #photo_7image {
+        display: block;
+     }
+
+     #photo_8 {
+        position: relative;
+        cursor: pointer;
+     }
+     #photo_8image {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        width: 15vw;
+     }
+     #photo_8:hover + #photo_8image {
+        display: block;
+     }
+
+     #photo_9 {
+        position: relative;
+        cursor: pointer;
+     }
+     #photo_9image {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        width: 15vw;
+     }
+     #photo_9:hover + #photo_9image {
+        display: block;
+     }
+
+     #photo_10 {
+        position: relative;
+        cursor: pointer;
+     }
+     #photo_10image {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        width: 15vw;
+     }
+     #photo_10:hover + #photo_10image {
+        display: block;
+     }
+
+      #typoface {
+        position: relative;
+        cursor: pointer;
+     }
+     #typofaceimage {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        width: 15vw;
+     }
+     #typoface:hover + #typofaceimage {
+        display: block;
+     }
+
+     #vegan {
+        position: relative;
+        cursor: pointer;
+     }
+     #veganimage {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        width: 15vw;
+     }
+     #vegan:hover + #veganimage {
+        display: block;
+     }
+
+     #graphic {
+        position: relative;
+        cursor: pointer;
+     }
+     #graphicimage {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        width: 15vw;
+     }
+     #graphic:hover + #graphicimage {
+        display: block;
+     }
+
+     #hip {
+        position: relative;
+        cursor: pointer;
+     }
+     #hipimage {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        width: 15vw;
+     }
+     #hip:hover + #hipimage {
+        display: block;
+     }
+
+     #instafeed {
+        position: relative;
+        cursor: pointer;
+     }
+     #instafeedimage {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        width: 15vw;
+     }
+     #instafeed:hover + #instafeedimage {
+        display: block;
+     }
+
+      #home {
+        position: relative;
+        cursor: pointer;
+     }
+     #homeimage {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        width: 15vw;
+     }
+     #home:hover + #homeimage {
+        display: block;
+     }
+
+     #special {
+        position: relative;
+        cursor: pointer;
+     }
+     #specialimage {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        width: 15vw;
+     }
+     #special:hover + #specialimage {
+        display: block;
+     }
+
+     #special_2 {
+        position: relative;
+        cursor: pointer;
+     }
+     #special_2image {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        width: 15vw;
+     }
+     #special_2:hover + #special_2image {
+        display: block;
+     }
+
+     #special_3 {
+        position: relative;
+        cursor: pointer;
+     }
+     #special_3image {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        width: 15vw;
+     }
+     #special_3:hover + #special_3image {
+        display: block;
+     }
+
+     #exhibi_1 {
+        position: relative;
+        cursor: pointer;
+     }
+     #exhibi_1image {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        width: 15vw;
+     }
+     #exhibi_1:hover + #exhibi_1image {
+        display: block;
+    }
+
+    #exhibi_2 {
+        position: relative;
+        cursor: pointer;
+     }
+     #exhibi_2image {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        width: 15vw;
+     }
+     #exhibi_2:hover + #exhibi_2image {
+        display: block;
+     }
+
+     #surya_2 {
+        position: relative;
+        cursor: pointer;
+     }
+     #surya_2image {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        width: 15vw;
+     }
+     #surya_2:hover + #surya_2image {
+        display: block;
+     }
+
+     #rayuday {
+        position: relative;
+        cursor: pointer;
+     }
+     #rayudayimage {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        width: 15vw;
+     }
+     #rayuday:hover + #rayudayimage {
+        display: block;
+     }
+
+     #rayuday_2 {
+        position: relative;
+        cursor: pointer;
+     }
+     #rayuday_2image {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        width: 15vw;
+     }
+     #rayuday_2:hover + #rayuday_2image {
+        display: block;
+     }
+
+     #gongreem {
+        position: relative;
+        cursor: pointer;
+     }
+     #gongreemimage {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        width: 15vw;
+     }
+     #gongreem:hover + #gongreemimage {
+        display: block;
+     }
+
+
+     
+
+
+     
