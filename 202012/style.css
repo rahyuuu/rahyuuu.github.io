@@ -117,6 +117,8 @@ a {
         box-sizing: border-box;
         }
     html{
+       @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+       font-family: 'Noto Sans KR', sans-serif;
         padding: 0;
         margin: 0;
          background: black;
@@ -133,7 +135,6 @@ a {
     }
 
      body{
-        font-family: Sans-Serif;
         position: absolute;
         top: 0;
         left: 0;
