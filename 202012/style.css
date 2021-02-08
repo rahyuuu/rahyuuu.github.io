@@ -135,6 +135,7 @@ a {
     }
 
      body{
+        font-family: 'Noto Sans KR', sans-serif;
         position: absolute;
         top: 0;
         left: 0;
